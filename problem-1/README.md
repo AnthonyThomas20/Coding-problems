@@ -10,12 +10,20 @@ Write a program to find if the given word is a keyword or not
 
 Case 1
 
-> Input – defer
+Sample Input 
 
-> Expected Output – defer is a keyword
+> defer
+
+Sample Output
+
+> defer is a keyword
 
 Case 2
 
-> Input – While
+Sample Input 
 
-> Expected Output – while is not a keyword
+> While
+
+Sample Output 
+
+> while is not a keyword
