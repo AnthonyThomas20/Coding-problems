@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,n;
+    scanf("%d",&d);
+    if(d<0)
+    {
+        printf("Please enter positive number");
+    }
+    else if(d==0)
+    {
+        printf("0 is square root of %d",d);
+    }
+    else
+    {
+        scanf("%d",&n);
+        if(n==0)
+        {
+            printf("Invalid input");
+        }
+        else
+        {
+            if((d/n==n)&&(d%n==0))
+            {
+                printf("%d is square root of %d",n,d);
+            }
+            else
+            {
+                printf("%d is not a square root of %d",n,d);
+            }
+        }
+    }
+    return 0;
+}
