@@ -10,7 +10,11 @@ int main()
     }
     else if(d==0)
     {
-        printf("0 is square root of %d",d);
+        printf("Square root of %d is 0",d);
+    }
+    else if(d==1)
+    {
+        printf("Square root of %d is 1",d);
     }
     else
     {
@@ -23,7 +27,7 @@ int main()
         {
             if((d/n==n)&&(d%n==0))
             {
-                printf("%d is square root of %d",n,d);
+                printf("Square root of %d is %d",d,n);
             }
             else
             {
