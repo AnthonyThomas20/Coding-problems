@@ -45,6 +45,5 @@ int main()
         cost=s1*18.0+s2*12.0;
         printf("\nTotal estimated Cost : %.1f INR", cost);
     }
-    
     return 0;
 }
