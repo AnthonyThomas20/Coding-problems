@@ -2,15 +2,13 @@
 
 int main()
 {
-    int l,r,t,i,count=0;
+    int l,r,i,count=0;
     scanf("%d",&l);
     scanf("%d",&r);
-    t=r-l+1;
-    int a[t];
-    for(i=0;i<t;i++,l++)
+    
+    for(i=l;i<=r;i++)
     {
-        a[i]=l;
-        if(a[i]/10!=a[i]%10)
+        if(i/10!=i%10)
         {
             count++;
         }
