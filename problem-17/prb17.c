@@ -50,24 +50,21 @@ int main()
     for(i=0;i<9;i++)
     {
         scanf("%d", &a[i]);
-    }
-    t1=(a[0]+a[3]+a[6])/3;
-    t2=(a[1]+a[4]+a[7])/3;
-    t3=(a[2]+a[5]+a[8])/3;
-    for(i=0;i<9;i++)
-    {
-        if(a[i]<0)
+        if(a[i]<0 || a[i]>100)
         {
             flag++;
         }
     }
     if(flag==0)
     {
+        t1=(a[0]+a[3]+a[6])/3;
+        t2=(a[1]+a[4]+a[7])/3;
+        t3=(a[2]+a[5]+a[8])/3;
         evaluate(t1,t2,t3);
     }
     else
     {
-        printf("\nInvalid Input");
+        printf("\nINVALID INPUT");
     }
     return 0;
 }
