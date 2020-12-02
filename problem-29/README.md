@@ -2,7 +2,7 @@
 
 Write a program to return the difference between the count of odd numbers and even numbers.
 
-*Note :* You are expected to write code in the countOddEvenDifference function only which will receive the first parameter as the number of items in the array and second parameter as the array itself. you are not required to take input from the console.
+*Note :* You are expected to write code in the *countOddEvenDifference* function only which will receive the first parameter as the number of items in the array and second parameter as the array itself. you are not required to take input from the console.
 
 **Test Case 1**
 
