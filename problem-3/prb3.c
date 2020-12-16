@@ -23,7 +23,7 @@ int prime(int n)
 
 int check(int a)
 {
-  if(a<0)
+  	if(a<0)
 	{
 	    printf("Please enter a positive number");  //warning message for negative input
 	}
