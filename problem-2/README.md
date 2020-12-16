@@ -21,16 +21,16 @@ Each of the next n lines describes a row, arr[i] and consists of n space-separat
 **Output Format:**
 Return the absolute difference between the sums of the matrix’s two diagonals as a single integer.
 
-Sample Input:
+*Sample Input:
 
-3
-|  -  |  -  |  -  |
-|-----|-----|-----|
-| 11  |  2  |  4  |
-|  4  |  5  |  6  |
-| 10  |  8  | -12 |
+> 3
 
+> 11 2 4
+
+> 4 5 6
+
+> 10 8 -12
   
-Sample Output:
+*Sample Output:
 
-15
+> 15
